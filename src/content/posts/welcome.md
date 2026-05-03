@@ -4,6 +4,8 @@ description: "Best AI Security Tools compares the AI security tooling landscape 
 pubDate: 2026-05-03
 tags: ["meta"]
 category: "site"
+heroImage: https://aisec-imagegen.th3gptoperator.workers.dev/featured/bestaisecuritytools.com/welcome.png
+heroAlt: "What this site is for"
 ---
 
 Best AI Security Tools exists because the AI security tooling market is full of demoware — products that look great in a 5-minute pitch and fall apart against a real attack library — and almost none of the public benchmarks are run by people who don't have a financial relationship with the vendor.
