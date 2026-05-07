@@ -1,5 +1,6 @@
 ---
 title: "What this site is for"
+author: "Daniel Park"
 description: "Best AI Security Tools compares the AI security tooling landscape with numbers — detection rates, false-positive rates, and the inconvenient findings. Here's how we work."
 pubDate: 2026-05-03
 tags: ["meta"]
