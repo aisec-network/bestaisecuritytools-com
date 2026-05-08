@@ -1,24 +1,35 @@
-/* Brand for bestaisecuritytools-com: cluster=defensive, variant=v3_split_asymmetric_brutalist */
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Mono:wght@400;500;600;700&display=swap");
+/* Brand for bestaisecuritytools-com: identity=f30_mono_fira_dmsans+p27_h304_ink+feed+v12_index */
 
-body[data-cluster='defensive'] {
-  --bg: 240 253 244;
-  --fg: 20 83 45;
-  --surface: 220 252 231;
-  --muted: 240 253 244;
-  --muted-fg: 74 222 128;
-  --border: 74 222 128;
-  --font-display: "DM Sans", system-ui, sans-serif;
-  --font-body: "DM Mono", system-ui, sans-serif;
-  --accent-400: 21 128 61;
-  --accent-500: 21 128 61;
-  --accent-600: 21 128 61;
-  --accent-700: 21 128 61;
-  --brand-tone: "tool-green";
-  --brand-accent-rgb: 21 128 61;
-  --brand-variant: "v3_split_asymmetric_brutalist";
+body[data-cluster] {
+  --bg: 255 255 255;
+  --fg: 10 10 10;
+  --muted: 245 245 245;
+  --muted-fg: 80 80 80;
+  --border: 220 220 220;
+  --surface: 255 255 255;
+  --surface-alt: 245 245 245;
+  --font-display: "Fira Code", ui-monospace, monospace;
+  --font-body: "DM Sans", "Helvetica Neue", system-ui, sans-serif;
+  --font-mono: "Fira Code", ui-monospace, monospace;
+  --brand-accent-rgb: 196 39 185;
+  --brand-identity-font: "f30_mono_fira_dmsans";
+  --brand-identity-palette: "p27_h304_ink";
+  --brand-identity-layout: "feed";
+  --brand-identity-voice: "v12_index";
 }
-html.dark body[data-cluster='defensive'] {
-  --bg: 240 253 244; --fg: 20 83 45; --surface: 220 252 231;
-  --accent-500: 21 128 61; --accent-600: 21 128 61;
+
+html.dark body[data-cluster] {
+  --bg: 10 10 10;
+  --fg: 240 240 240;
+  --muted: 22 22 22;
+  --muted-fg: 160 160 160;
+  --border: 50 50 50;
+  --surface: 10 10 10;
+  --surface-alt: 22 22 22;
+  --brand-accent-rgb: 232 74 221;
 }
+
+/* Density modifiers */
+body.density-loose  { --space-section: 5rem; }
+body.density-normal { --space-section: 3rem; }
+body.density-dense  { --space-section: 1.5rem; }
