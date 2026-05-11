@@ -15,7 +15,7 @@ What we publish:
 
 **Side-by-side comparisons with shared methodology.** Same attack library, same target system, same metrics. Detection rate. False-positive rate on benign traffic. Latency at the percentiles operators care about. Cost per protected request at realistic volumes. The methodology gets published; the artifacts get published; the raw results get published — including the inconvenient ones.
 
-**Category coverage.** LLM input/output scanners and guardrails. Prompt-injection detectors. Jailbreak filters. Adversarial-ML libraries and evaluation harnesses. Red-team frameworks. AI-aware WAFs. Model-supply-chain scanners. Each category gets its own benchmark methodology because the failure modes differ.
+**Category coverage.** [LLM input/output scanners and guardrails](/posts/ai-firewall-guardrail-solutions). Prompt-injection detectors. Jailbreak filters. [Adversarial-ML libraries and evaluation harnesses](/posts/adversarial-ml-defense-tools). [Red-team frameworks](/posts/ai-red-teaming-tools). AI-aware WAFs. Model-supply-chain scanners. Each category gets its own benchmark methodology because the failure modes differ.
 
 **Vendor responses, in full.** When a vendor disagrees with a result, we publish the disagreement and our response. We don't pre-clear results with vendors before publication.
 
@@ -33,4 +33,4 @@ Affiliate links exist on this site and are disclosed. Editorial coverage is not 
 
 Bylines are pseudonymous. Tips, vendor responses, and methodology corrections to the editor.
 
-Real coverage starts shortly.
+Coverage is live — start with our [best AI security tools overview](/posts/best-ai-security-tools-2024) for a map of the landscape, or go straight to our [LLM vulnerability scanner benchmark](/posts/top-llm-vulnerability-scanners) for head-to-head numbers.

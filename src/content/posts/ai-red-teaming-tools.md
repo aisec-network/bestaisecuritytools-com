@@ -43,7 +43,7 @@ For a deeper treatment of specific attack methodologies, [aisec.blog](https://ai
 
 **PyRIT** (Python Risk Identification Tool) is Microsoft's open-source contribution to this space. Its design is research-grade: it supports multi-turn conversation orchestration, multimodal attack construction (audio, image, text), and integration with Azure Content Safety for hybrid evaluation. PyRIT is less batteries-included than Promptfoo but more flexible for teams building custom attack pipelines or evaluating novel model architectures.
 
-**DeepTeam** from Confident AI covers [50-plus vulnerability categories](https://github.com/confident-ai/deepteam) mapped across data privacy, responsible AI, security (SQL injection, SSRF, shell injection), and agentic system risks. Its 20-plus attack methods include single-turn jailbreaks, multi-turn crescendo attacks, and encoding obfuscations, with built-in alignment to OWASP, NIST AI RMF, and MITRE ATLAS. The framework also ships seven production guardrails for real-time input/output filtering, making it usable as both a testing framework and a runtime defense layer.
+**DeepTeam** from Confident AI covers [50-plus vulnerability categories](https://github.com/confident-ai/deepteam) mapped across data privacy, responsible AI, security (SQL injection, SSRF, shell injection), and agentic system risks. Its 20-plus attack methods include single-turn jailbreaks, multi-turn crescendo attacks, and encoding obfuscations, with built-in alignment to OWASP, NIST AI RMF, and MITRE ATLAS. The framework also ships seven production guardrails for real-time input/output filtering, making it usable as both a testing framework and a runtime defense layer (for dedicated guardrail products with benchmarked detection rates, see our [AI firewall and guardrail solutions review](/posts/ai-firewall-guardrail-solutions)).
 
 **FuzzyAI** from CyberArk takes a genetic algorithm approach to fuzzing — mutating prompts across generations to find adversarial inputs that static probe libraries would miss. Its techniques include ArtPrompt, many-shot jailbreaking, crescendo attacks, and Unicode smuggling. For teams dealing with jailbreak-resistant fine-tunes, the mutation-based approach surfaces failure modes that handcrafted test sets cannot.
 
@@ -61,7 +61,7 @@ Open-source tools require engineering bandwidth to operate and maintain. Commerc
 
 No single tool covers everything. The practical approach is layered:
 
-**Start with Garak or Promptfoo** in CI. Both are open-source, fast to integrate, and cover the OWASP LLM Top 10. Run them on every model update and against any new retrieval source or tool integration added to an agentic pipeline.
+**Start with Garak or Promptfoo** in CI. Both are open-source, fast to integrate, and cover the OWASP LLM Top 10. Run them on every model update and against any new retrieval source or tool integration added to an agentic pipeline. Our [open-source LLM security testing guide](/posts/open-source-llm-security-testing) covers these tools in depth alongside a full curated toolkit.
 
 **Add PyRIT or DeepTeam** when you need custom attack orchestration — multi-turn sequences, domain-specific jailbreak scenarios, or evaluation of agentic behaviors like tool misuse and goal hijacking.
 

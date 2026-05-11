@@ -38,7 +38,7 @@ Understanding the taxonomy determines your tooling priorities. A team building a
 
 **Amazon Bedrock Guardrails** is the native choice for AWS shops. It adds content filtering, PII redaction, hallucination grounding checks, and topic denylists directly into Bedrock model invocations. For organizations already standardized on AWS, the operational overhead is minimal and the IAM integration is native.
 
-**LLM Guard** (from Protect AI) is the strongest open-source option in this category. It ships as a Python library with modular input and output scanners covering anonymization of PII, detection of prompt injection patterns, secrets redaction, and toxicity filtering. For teams with the engineering bandwidth to self-host and tune, it offers full control without a SaaS dependency. See [GuardML's breakdown of defensive guardrail stacks](https://guardml.io) for configuration patterns in production environments.
+**LLM Guard** (from Protect AI) is the strongest open-source option in this category. It ships as a Python library with modular input and output scanners covering anonymization of PII, detection of prompt injection patterns, secrets redaction, and toxicity filtering. For teams with the engineering bandwidth to self-host and tune, it offers full control without a SaaS dependency. See [GuardML's breakdown of defensive guardrail stacks](https://guardml.io) for configuration patterns in production environments, and our [AI firewall and guardrail solutions comparison](/posts/ai-firewall-guardrail-solutions) for benchmarked detection rates across nine products.
 
 ### Adversarial Testing and Red Teaming
 
@@ -46,7 +46,7 @@ Understanding the taxonomy determines your tooling priorities. A team building a
 
 **Garak** is the go-to open-source LLM vulnerability scanner. Developed by NVIDIA researchers, it supports a wide probe library — covering jailbreak attempts, toxic generation, information leakage, and hallucination behavior — and works against local models, API endpoints, and Hugging Face-hosted models. For teams building internal evaluation pipelines, Garak's modular architecture makes it practical to extend with custom probes targeting your specific threat model.
 
-**Adversarial Robustness Toolbox (ART)** from IBM covers the traditional ML security surface: evasion attacks, poisoning, extraction, and inference attacks against classification and regression models. It predates the LLM era but remains the most comprehensive toolkit for teams running classical ML alongside generative systems. For a deeper treatment of adversarial ML attack techniques, [adversarialml.dev](https://adversarialml.dev) maintains practical documentation on attack implementations and defenses.
+**Adversarial Robustness Toolbox (ART)** from IBM covers the traditional ML security surface: evasion attacks, poisoning, extraction, and inference attacks against classification and regression models. It predates the LLM era but remains the most comprehensive toolkit for teams running classical ML alongside generative systems. For a deeper treatment of adversarial ML attack techniques, [adversarialml.dev](https://adversarialml.dev) maintains practical documentation on attack implementations and defenses. Our [adversarial ML defense tools review](/posts/adversarial-ml-defense-tools) covers these libraries and commercial platforms in depth.
 
 ### Shadow AI and Data Loss Prevention
 
