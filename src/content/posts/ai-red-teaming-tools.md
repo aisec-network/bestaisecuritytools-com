@@ -16,6 +16,7 @@ sources:
     url: "https://owasp.org/www-project-top-10-for-large-language-model-applications/"
 schema:
   type: "TechArticle"
+heroImage: https://aisec-imagegen.th3gptoperator.workers.dev/featured/bestaisecuritytools.com/ai-red-teaming-tools.png
 ---
 
 The category of **ai red teaming tools** has matured fast. Twelve months ago, most teams had Garak on a laptop and a handful of hand-crafted adversarial prompts. Today there are purpose-built frameworks covering fifty-plus vulnerability classes, CI/CD-native scanners that gate releases on adversarial test outcomes, and enterprise platforms running continuous automated red teaming against deployed models. The gap between what's available and what most organizations actually use is still large — this guide is meant to close it.
