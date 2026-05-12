@@ -134,3 +134,5 @@ For the autonomous agent scenario, none of the frameworks provided complete cove
 **For regulated industries (financial services, healthcare, critical infrastructure):** Treat the EU AI Act and NIST AI RMF as compliance floors, not ceilings. OWASP and ATLAS handle the technical depth the standards don't reach.
 
 The [AI Incidents](https://aiincidents.org) tracker is a useful calibration resource — reviewing real incidents against these frameworks quickly shows which categories generate the most actual harm.
+
+For more context, [AI content moderation tools](https://aimoderationtools.com/) covers related topics in depth.

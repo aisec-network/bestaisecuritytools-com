@@ -36,7 +36,7 @@ The single highest-leverage practice in this phase: write down which inputs are 
 
 | Practice | Tool Examples |
 |---|---|
-| Run a prompt-injection scanner on every input | Lakera Guard, LLM Guard, NeMo Guardrails |
+| Run a prompt-injection scanner on every input | Lakera [Guard](https://guardml.io/), LLM Guard, NeMo Guardrails |
 | PII redaction on inputs and outputs | Nightfall AI, Microsoft Presidio, LLM Guard scanners |
 | Output validation for structured contracts | Pydantic schema enforcement, Guardrails AI |
 | Rate limit per identity, not per IP | Standard API gateway pattern, scoped to user |
@@ -50,7 +50,7 @@ A guardrail at the boundary catches the high-volume, low-sophistication attacks 
 | Run Garak or PyRIT in CI against every model change | Catches regressions where a fine-tune reopens previously-fixed jailbreaks |
 | Maintain a private prompt-injection corpus | Public corpora train models that pass them; private corpora catch real risk |
 | Score releases on attack success rate | Numeric gate is harder to argue with than "felt safe" |
-| Red team the application, not just the model | Most exploitable bugs live in the wrapper, not the weights |
+| [Red team](https://aisecbench.com/) the application, not just the model | Most exploitable bugs live in the wrapper, not the weights |
 
 A practice often skipped: re-run the full adversarial suite after every prompt template change. Template edits are responsible for a large fraction of post-deployment regressions. See our coverage of [open-source LLM security testing](/posts/open-source-llm-security-testing) for tooling specifics.
 

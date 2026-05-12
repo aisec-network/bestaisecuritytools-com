@@ -10,7 +10,7 @@ schema:
   type: "TechArticle"
 ---
 
-Watermarking AI-generated content has moved from a research curiosity to a compliance requirement in the span of roughly eighteen months. The EU AI Act's Article 50 mandates disclosure of synthetic content; US executive guidance and emerging state laws are pushing in the same direction. If your organization deploys generative AI at any scale, the question is no longer whether to watermark — it's which approach to use and which tools implement it reliably. Our [AI security audit frameworks comparison](/posts/ai-security-audit-frameworks) covers how watermarking requirements fit within the broader landscape of EU AI Act and NIST AI RMF obligations.
+Watermarking AI-generated content has moved from a research curiosity to a compliance requirement in the span of roughly eighteen months. The EU AI Act's Article 50 mandates disclosure of synthetic content; US executive guidance and emerging state laws are pushing in the same direction. If your organization deploys generative AI at any scale, the question is no longer whether to watermark — it's which approach to use and which tools implement it reliably. Our [AI [security audit](https://aisecbench.com/) frameworks comparison](/posts/ai-security-audit-frameworks) covers how watermarking requirements fit within the broader landscape of EU AI Act and NIST AI RMF obligations.
 
 The problem is that "watermarking" covers three technically distinct things, and vendors conflate them constantly. Let's separate them before discussing tools.
 

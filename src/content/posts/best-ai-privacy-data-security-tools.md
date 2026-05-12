@@ -173,4 +173,4 @@ Availability: early-stage. Several infrastructure providers are offering TEE-bas
 3. Ragie or equivalent for RAG isolation
 4. Formal privacy impact assessment against GDPR/HIPAA/applicable regulation
 
-Track regulatory developments and enforcement at [AI Privacy Report](https://aiprivacy.report) and [Neural Watch](https://neuralwatch.org). Track tool updates at [AI Sec Weekly](https://aisecweekly.com). For the security audit frameworks that govern these compliance requirements, see our [AI security audit frameworks comparison](/posts/ai-security-audit-frameworks).
+Track regulatory developments and enforcement at [AI Privacy Report](https://aiprivacy.report) and [Neural Watch](https://neuralwatch.org). Track tool updates at [AI Sec Weekly](https://aisecweekly.com). For the [security audit](https://aisecbench.com/) frameworks that govern these compliance requirements, see our [AI security audit frameworks comparison](/posts/ai-security-audit-frameworks).

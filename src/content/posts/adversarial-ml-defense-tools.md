@@ -145,3 +145,5 @@ Robust Intelligence's platform (which we also covered in our [LLM vulnerability 
 **For the threat model argument:** Most teams deploying AI don't have sophisticated adversarial ML attackers. But the calculus changes as systems become higher-value targets. [AI Attacks](https://aiattacks.dev) tracks real-world adversarial ML attacks and can help you calibrate threat model realism.
 
 The fundamental tradeoff — robustness vs. accuracy — doesn't go away regardless of which tools you use. Build your systems with the expectation that any model can be fooled with enough effort, and design your architecture to fail safely when it is.
+
+For more context, [AI content moderation tools](https://aimoderationtools.com/) covers related topics in depth.
